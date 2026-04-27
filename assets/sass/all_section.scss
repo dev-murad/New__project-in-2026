@@ -310,6 +310,21 @@
             transform: translateY(20px);
         }
 
+
+i.fa-brands.fa-bitcoin.logo22 {
+    color: var(--text);
+    font-size: 40px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    transition: .3s;
+}
+i.fa-brands.fa-bitcoin.logo22:hover {
+    color: var(--text);
+    font-size: 45px;
+    border: 4px solid var(--primary-2);
+    border-radius: 60%;
+}
+
         @media (max-width: 900px) {
             .hero-grid, .contact-grid { grid-template-columns: 1fr; }
             .grid-3 { grid-template-columns: 1fr; }

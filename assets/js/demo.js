@@ -1,6 +1,6 @@
 
         
-        alert('Theme toggled!');
+       // alert('Theme toggled!');
         const themeToggle = document.getElementById('themeToggle');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
