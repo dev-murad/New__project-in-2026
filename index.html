@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSaaS | Modern Solutions for 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/sass/all_section.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">NovaSaaS</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div style="display:flex; gap:1rem; align-items:center;">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-toggle" id="mobileToggle">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="fade-up">
+                <h1>Build the future with AI-powered SaaS</h1>
+                <p>NovaSaaS helps teams ship products 10x faster in 2026. Automate workflows, analyze data, and scale
+                    without limits.</p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#about" class="btn btn-ghost">See How It Works</a>
+                </div>
+            </div>
+            <div class="hero-img fade-up">
+                <div class="glass">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+                        alt="Dashboard" style="width:100%;border-radius:12px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-up">Why NovaSaaS in 2026</h2>
+            <p class="section-subtitle fade-up">We rebuilt SaaS for the AI era. Faster, smarter, and designed for modern
+                teams.</p>
+            <div class="grid-3 stagger">
+                <div class="card glass">
+                    <h3>⚡ Realtime AI</h3>
+                    <p>GPT-5 level models built-in. Generate content, code, and insights without leaving your workflow.
+                    </p>
+                </div>
+                <div class="card glass">
+                    <h3>🔒 Zero-Trust Security</h3>
+                    <p>SOC2, GDPR, and post-quantum encryption by default. Your data never trains our models.</p>
+                </div>
+                <div class="card glass">
+                    <h3>🌍 Edge Native</h3>
+                    <p>Sub-50ms latency globally. Deployed on 300+ edge locations for true realtime collab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-up">Trusted by innovators</h2>
+            <p class="section-subtitle fade-up">Companies using NovaSaaS to ship faster</p>
+            <div class="portfolio-grid stagger">
+                <div class="portfolio-item glass">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                        alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Fintech Dashboard</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop"
+                        alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Healthcare AI</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop"
+                        alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Engine</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <div class="container">
+            <h2 class="section-title fade-up">Our Global HQ</h2>
+            <p class="section-subtitle fade-up">Visit us or connect remotely. We’re hybrid-first.</p>
+            <div class="glass fade-up" id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.8318789773!2d90.33728815181979!3d23.780975728157536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1777230821499!5m2!1sen!2sbd"
+                    width="100%" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2 class="section-title fade-up">Simple pricing for 2026</h2>
+            <p class="section-subtitle fade-up">No hidden fees. Cancel anytime. 14-day free trial.</p>
+            <div class="pricing-grid stagger">
+                <div class="pricing-card glass">
+                    <h3>Starter</h3>
+                    <div class="price">$19<span>/mo</span></div>
+                    <ul class="features">
+                        <li>5 team members</li>
+                        <li>10k AI tokens/mo</li>
+                        <li>Basic analytics</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="btn btn-ghost" onclick="checkout('starter')">Choose Plan</button>
+                </div>
+                <div class="pricing-card glass popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul class="features">
+                        <li>25 team members</li>
+                        <li>100k AI tokens/mo</li>
+                        <li>Advanced analytics</li>
+                        <li>Priority support</li>
+                        <li>Custom integrations</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="checkout('pro')">Choose Plan</button>
+                </div>
+                <div class="pricing-card glass">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features">
+                        <li>Unlimited members</li>
+                        <li>Unlimited AI tokens</li>
+                        <li>Dedicated instance</li>
+                        <li>24/7 phone support</li>
+                        <li>SLA + DPA</li>
+                    </ul>
+                    <button class="btn btn-ghost" onclick="checkout('enterprise')">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-up">Let’s talk</h2>
+            <p class="section-subtitle fade-up">Have a project? We’ll reply within 2 hours.</p>
+            <div class="contact-grid">
+                <div class="glass card fade-up">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" required placeholder="Ada Lovelace">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" required placeholder="ada@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="4" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                             <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="glass card fade-up">
+                    <h3>Contact Info</h3>
+                    <p style="margin:1rem 0;color:var(--muted)">📍 Mirjagonj, Barisal, Bangladesh<br>📧
+                        hello@novasaas.io<br>📞 +880 1XXX-XXXXXX</p>
+                    <h3 style="margin-top:2rem">Working Hours</h3>
+                    <p style="color:var(--muted)">Mon - Fri: 9AM - 6PM GMT+6<br>Sat - Sun: Remote support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 NovaSaaS. Built for the future. All rights reserved.</p>
+            <h2>NovaSaaS & codifycanyon</h2>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/demo.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</body>
+
+</html>
